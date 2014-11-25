@@ -18,6 +18,24 @@ theme
 
 ![](images/usagi-kao-kiritori.png){:width='180' height='180' align="right"}
 
+# 好きなもの
+- zsh
+- vim
+- vimperator
+
+![](images/usagi-kao-kiritori.png){:width='180' height='180' align="right"}
+
+# ブログとか
+はてなブログ
+:    http://mollifier.hatenablog.com/
+
+Twitter
+:    http://twitter.com/mollifier
+
+Qiita
+:    http://qiita.com/mollifier
+
+
 # この勉強会について
 - zshの勉強会です
 - 今回初めて開催します
@@ -62,22 +80,31 @@ theme
 
 
 # 今日の内容
-- 13:00 - 13:10 はじめに (@mollifier)
-- 13:10 - 13:30 今から始めるzsh (@mollifier)
-- 13:30 - 13:50 本格的に始めるzsh (@mollifier)
-- 13:50 - 14:00 休憩
+
+|時間|内容|
+|:---|:---|
+|13:00 - 13:10|はじめに (@mollifier)|
+|13:10 - 13:30|今から始めるzsh (@mollifier)|
+|13:30 - 13:50|本格的に始めるzsh (@mollifier)|
+|13:50 - 14:00|休憩|
 
 # 今日の内容
-- 14:00 - 14:20 vcs_infoを使おう (@mollifier)
-- 14:20 - 14:50 pecoを使おう (@mollifier)
-- 14:50 - 15:00 休憩
+
+|時間|内容|
+|:---|:---|
+|14:00 - 14:20|vcs_infoを使おう (@mollifier)|
+|14:20 - 14:50|pecoを使おう (@mollifier)|
+|14:50 - 15:00|休憩|
 
 # 今日の内容
-- 15:00 - 15:15 (未定)
-- 15:15 - 15:30 (未定)
-- 15:30 - 15:45 (未定)
-- 15:45 - 16:50 各自で自習
-- 16:50 - 17:00 片付け
+
+|時間|内容|
+|:---|:---|
+|15:00 - 15:15|(未定)|
+|15:15 - 15:30|(未定)|
+|15:30 - 15:45|(未定)|
+|15:45 - 16:50|各自で自習|
+|16:50 - 17:00|片付け|
 
 # アンケート
 終わったらぜひアンケートを書いてください
