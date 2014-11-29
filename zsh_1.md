@@ -112,5 +112,8 @@ Qiita
 - https://docs.google.com/forms/d/1UVtdJMCpjYwm-A0yBhRY-xvyHniVlD4Ipb0-FeCBe4M/viewform?usp=send_form
 - http://bit.ly/uchuzsh1
 
+# 宇宙zsh
+- それでは、宇宙zshが始まります
+- よろしくおねがいします
 
 
