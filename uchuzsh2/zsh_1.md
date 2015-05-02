@@ -16,14 +16,14 @@ theme
 - はてなID: mollifier
 - 神戸のプログラマ
 
-![](images/usagi-kao-kiritori.png){:width='180' height='180' align="right"}
+![](images/usagi-kao-kiritori.png){:caption="" relative_height="60" align="right"}
 
 # 好きなもの
 - zsh
 - vim
 - vimperator
 
-![](images/usagi-kao-kiritori.png){:width='180' height='180' align="right"}
+![](images/usagi-kao-kiritori.png){:caption="" relative_height="60" align="right"}
 
 # ブログとか
 はてなブログ
@@ -85,24 +85,33 @@ Qiita
 |:---|:---|
 |13:00 - 13:10|はじめに (@mollifier)|
 |13:10 - 13:30|今から始めるzsh (@mollifier)|
-|13:30 - 13:50|本格的に始めるzsh (@mollifier)|
-|13:50 - 14:00|休憩|
+|13:30 - 14:00|本格的に始めるzsh (@mollifier)|
+|14:00 - 14:10|休憩|
 
 # 今日の内容
 
 |時間|内容|
 |:---|:---|
-|14:00 - 14:20|vcs_infoを使おう (@mollifier)|
-|14:20 - 14:50|pecoを使おう (@mollifier)|
+|14:10 - 14:30|vcs_infoを使おう (@mollifier)|
+|14:30 - 14:50|Antigenを使おう (@mollifier)|
 |14:50 - 15:00|休憩|
 
 # 今日の内容
 
 |時間|内容|
 |:---|:---|
-|15:00 - 15:20|anyframeを使おう (@mollifier)|
-|15:20 - 16:50|各自で自習|
-|16:50 - 17:00|片付け|
+|15:00 - 15:20|pecoを使おう (@mollifier)|
+|15:20 - 15:40|anyframeを使おう (@mollifier)|
+|15:40 - 15:50|休憩|
+
+# 今日の内容
+
+|時間|内容|
+|:---|:---|
+|15:50 - 16:00|LT1 (@hoto17296)|
+|16:00 - 16:10|LT2 (@mollifier)|
+|16:10 - 17:50|各自で自習|
+|17:50 - 18:00|片付け|
 
 # 宇宙zsh
 - それでは、宇宙zshが始まります
