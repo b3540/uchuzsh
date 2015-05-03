@@ -220,11 +220,17 @@ anyframe-widget-kill
 
 # anyframeでできること
 anyframe-widget-cd-ghq-repository
-:  ghqコマンドで管理しているリポジトリに移動する
+:  ghqコマンドで管理しているリポジトリに移動する(ghqが必要)
 
 anyframe-widget-insert-filename
 :  ファイル名をコマンドラインに挿入する
 
+# anyframeでできること
+anyframe-widget-tmux-attach
+:  tmuxセッションを選んでアタッチする
+
+anyframe-widget-select-widget
+:  anyframe-widget(anyframeで使える関数)から選んでそれを実行する
 
 # anyframeを使おう
 - anyframeとは
@@ -239,12 +245,52 @@ anyframe-widget-insert-filename
 - 自分で一から書くより楽
 
 # 自分で関数を追加する
-- 具体的な書き方は「ソースコード読んで」
+- 具体的な書き方はと言うと
 
 # 自分で関数を追加する
-- ほんとはちゃんとドキュメント書かないといけない
-- ドキュメントはだいぶ不足してる
-- これがはやっていない原因の1つ
+まず、ファイルを保存するためのディレクトリを作る。$HOME/.zsh/anyframe-customの下に配置する場合の例
+
+    # ディレクトリがまだない場合は作成する
+    # このディレクトリ名は何でも良い
+    % mkdir -p $HOME/.zsh/anyframe-custom
+    % cd $HOME/.zsh/anyframe-custom
+
+    # このディレクトリ名は固定
+    % mkdir -p anyframe-functions/widgets
+
+# 自分で関数を追加する
+antigen bundleする前(anyframe-initを呼び出す前)に、このディレクトリを$fpathに追加する。
+
+    if [[ -f ~/.zsh/antigen/antigen.zsh ]]; then
+      source ~/.zsh/antigen/antigen.zsh
+      fpath=($HOME/.zsh/anyframe-custom(N-/) $fpath) # <= これを追加
+      antigen bundle mollifier/anyframe
+      antigen apply
+    fi
+
+# 自分で関数を追加する
+- これでひとまず準備完了
+
+# 自分で関数を追加する
+次に、作ったディレクトリの下($HOME/.zsh/anyframe-custom)にファイルを作って、zshの関数の中身を書く。
+
+    history -n -r 1 \
+      | anyframe-selector-auto \
+      | anyframe-action-execute
+
+# 自分で関数を追加する
+後は、aliasを設定するかbindkeyでキーバインドを割り当てる
+
+    alias ah=anyframe-widget-execute-history
+    # または
+    bindkey '^xr' anyframe-widget-execute-history
+
+ファイル名が関数名になるので、実際にはanyframe-widget-execute-historyの部分はファイル名に置き換える
+
+# 自分で関数を追加する
+- 自分で追加するのはちょっとややこしい
+- 詳しくは以下の記事を参照
+- [http://qiita.com/mollifier/items/81b18c012d7841ab33c3](http://qiita.com/mollifier/items/81b18c012d7841ab33c3)
 
 # anyframeを使おう
 - でも、普通に使う分にはだいたい使えると思う
